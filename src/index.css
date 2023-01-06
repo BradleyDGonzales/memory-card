@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'baroquetextjfregular';
+  src: url('../src/fonts/baroquetextjf-webfont.woff2') format('woff2'),
+    url('../src/fonts/baroquetextjf-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+}
+
+.cardName {
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#root {
+  height: 100%;
+  background: url('../src/img/cards.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: baroquetextjfregular, source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+}
+
+.card:hover {
+  box-shadow: -1px 4px 16px 0px rgba(0,0,0,0.75);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background: linear-gradient(90deg, rgba(10,10,10,1) 2%, rgba(0,0,0,1) 25%, rgba(142,0,0,1) 97%);
+  border-radius: 20px;
+}
+.myHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  color: white;
+}
+
+.main {
+  margin-top: 8em;
+  display: grid;
+  grid-template-columns: .1fr .1fr .1fr .1fr .1fr .1fr;
+  justify-content: center;
+  gap: 24px;
+}
+
+.bulkImage {
+  cursor: pointer;
+  width: 245px;
+  height: 245px;
+}
