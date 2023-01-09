@@ -51,13 +51,13 @@ const Game = () => {
             if (img.clicked === true) {
                 count++;
                 if (count === 11) {
-                    return alert('won');
+                    return alert('Game Clear');
                 }
             }
         })
-        console.log('u win')
     }
     function handleImgClick(e) {
+        let flag = false;
         const audio = new Audio(fail);
         audio.preload = "auto";
         audio.volume = 0.2;
@@ -66,6 +66,7 @@ const Game = () => {
         const updatedImg = click.map((img) => {
             if (img.imgName === currentImgName) {
                 if (img.clicked === true) {
+                    flag = true;
                     audio.play();
                     setScore(score - score)
                     return img;
@@ -85,7 +86,7 @@ const Game = () => {
                 return img;
             }
         })
-        setClick(updatedImg)
+        flag ? setClick(initialLists) : setClick(updatedImg);
         checkWin()
     }
     console.log(click);
