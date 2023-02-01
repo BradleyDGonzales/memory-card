@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# Memory Card Game
+
+<h3>A simple memory card game based off Haro Aso's Manga and Netflix Original Series: <a href="https://en.wikipedia.org/wiki/Alice_in_Borderland">Alice in Borderland</a></h3>
+
+# Rules
+
+<p>Using your memory, ensure that every time you click on an image that it is a different person from your previous clicked character.</p>
+<p>If the player clicks on an image that they have already clicked, it is game over. The game is cleared when the player correctly chooses a different character 12 times</p>
+
+## Getting started
+
+```
+git clone https://github.com/BradleyDGonzales/memory-card.git
+cd memory-card
+npm install
+npm start
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
