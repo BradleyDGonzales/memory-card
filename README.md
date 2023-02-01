@@ -16,6 +16,12 @@ npm install
 npm start
 ```
 
+## Built with
+
+- [React](https://reactjs.org/)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [React Functional Components](https://www.geeksforgeeks.org/reactjs-functional-components/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
