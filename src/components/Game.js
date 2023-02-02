@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { useEffect, useState } from 'react';
+import { useEffect, useInsertionEffect, useState } from 'react';
 import bulkImages from './bulkImages';
 import fail from '../sound/fail.ogg'
 import Header from './Header';
@@ -13,7 +13,7 @@ let initialLists = [
     { imgName: 'karube', clicked: false },
     { imgName: 'kuina', clicked: false },
     { imgName: 'kuzuryu', clicked: false },
-    { imgName: 'kyuma', clicked: false },
+    { imgName: 'banda', clicked: false },
     { imgName: 'lastboss', clicked: false },
     { imgName: 'niragi', clicked: false },
     { imgName: 'tatta', clicked: false },
@@ -51,6 +51,10 @@ const Game = () => {
             if (img.clicked === true) {
                 count++;
                 if (count === 11) {
+                    count++;
+                    shuffle(bulkImages)
+                    setScore(0);
+                    setClick(initialLists)
                     return alert('Game Clear');
                 }
             }

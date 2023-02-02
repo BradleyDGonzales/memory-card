@@ -10,6 +10,7 @@ import lastboss from '../img/lastboss.jpg';
 import niragi from '../img/niragi.jpg';
 import tatta from '../img/tatta.jpg';
 import usagi from '../img/usagi.jpg';
+import banda from '../img/banda.jpg'
 
 const bulkImages = [{
     img: arisu,
@@ -33,8 +34,8 @@ const bulkImages = [{
     img: kuzuryu,
     imgCardName: 'Kuzuryu'
 }, {
-    img: kyuma,
-    imgCardName: 'Kyuma'
+    img: banda,
+    imgCardName: 'Banda'
 }, {
     img: lastboss,
     imgCardName: 'Last Boss'
