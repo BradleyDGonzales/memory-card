@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.a3b60e24.css",
+    "main.js": "/memory-card/static/js/main.a27087aa.js",
+    "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
+    "static/media/cards.jpg": "/memory-card/static/media/cards.0f2a90b8ea9a3f05dca1.jpg",
+    "static/media/niragi.jpg": "/memory-card/static/media/niragi.551243a4a00c13fdacdd.jpg",
+    "static/media/chota.jpg": "/memory-card/static/media/chota.14d5982c39907282dfa3.jpg",
+    "static/media/banda.jpg": "/memory-card/static/media/banda.a371cfcd6a49c747bd5e.jpg",
+    "static/media/karube.jpg": "/memory-card/static/media/karube.f7cb142f82b96e7c37bb.jpg",
+    "static/media/arisu.jpg": "/memory-card/static/media/arisu.eece367aa7ca61745869.jpg",
+    "static/media/baroquetextjf-webfont.woff": "/memory-card/static/media/baroquetextjf-webfont.51dcdb63209ed73b5b0b.woff",
+    "static/media/chishiya.jpg": "/memory-card/static/media/chishiya.823b6f26ea84a8187556.jpg",
+    "static/media/kuina.jpg": "/memory-card/static/media/kuina.9633f69b44b1f633a19f.jpg",
+    "static/media/baroquetextjf-webfont.woff2": "/memory-card/static/media/baroquetextjf-webfont.22e0c8e2f3b1e8a00e0f.woff2",
+    "static/media/kyuma.jpg": "/memory-card/static/media/kyuma.00f26b823a1ab067bc33.jpg",
+    "static/media/fail.ogg": "/memory-card/static/media/fail.cf56c92df315e455de0b.ogg",
+    "static/media/ann.jpg": "/memory-card/static/media/ann.78e1b90a2648bf695c84.jpg",
+    "static/media/tatta.jpg": "/memory-card/static/media/tatta.942447bb9633806bd4a3.jpg",
+    "static/media/kuzuryu.jpg": "/memory-card/static/media/kuzuryu.b1a420f6d61709ea89fa.jpg",
+    "static/media/lastboss.jpg": "/memory-card/static/media/lastboss.99c777f8532a52996504.jpg",
+    "static/media/usagi.jpg": "/memory-card/static/media/usagi.d142337f59b90ec82a71.jpg",
+    "index.html": "/memory-card/index.html",
+    "main.a3b60e24.css.map": "/memory-card/static/css/main.a3b60e24.css.map",
+    "main.a27087aa.js.map": "/memory-card/static/js/main.a27087aa.js.map",
+    "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3b60e24.css",
+    "static/js/main.a27087aa.js"
+  ]
+}
