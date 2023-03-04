@@ -66,9 +66,9 @@ const Game = () => {
         audio.preload = "auto";
         audio.volume = 0.2;
         const imgSrc = e.target.src;
-        const currentImgName = imgSrc.substring(imgSrc.lastIndexOf('/') + 1, imgSrc.indexOf('.'))
+        const currentImgName = imgSrc.substring(imgSrc.lastIndexOf('/') + 1)
         const updatedImg = click.map((img) => {
-            if (img.imgName === currentImgName) {
+            if (img.imgName === currentImgName.split('.')[0]) {
                 if (img.clicked === true) {
                     flag = true;
                     audio.play();
@@ -101,7 +101,7 @@ const Game = () => {
 
                 {(bulkImages.map((img, index) => (
                     <div key={index} className='card'>
-                        <img onClick={(e) => handleImgClick(e)} id={'img' + index} key={img} src={img.img} alt={img} className="bulkImage" />
+                        <img onClick={(e) => handleImgClick(e)} id={'img' + index} key={img} src={`${process.env.PUBLIC_URL + img.img}`} alt={img} className="bulkImage" />
                         <span className='cardName'>{img.imgCardName}</span>
                     </div>
                 )))}
