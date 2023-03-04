@@ -101,7 +101,7 @@ const Game = () => {
 
                 {(bulkImages.map((img, index) => (
                     <div key={index} className='card'>
-                        <img onClick={(e) => handleImgClick(e)} id={'img' + index} key={img} src={`${process.env.PUBLIC_URL + img.img}`} alt={img} className="bulkImage" />
+                        <img onClick={(e) => handleImgClick(e)} id={'img' + index} key={img} src={img.img} alt={img} className="bulkImage" />
                         <span className='cardName'>{img.imgCardName}</span>
                     </div>
                 )))}
