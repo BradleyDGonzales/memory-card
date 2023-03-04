@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/memory-card/static/css/main.a3b60e24.css",
-    "main.js": "/memory-card/static/js/main.e2925ef0.js",
+    "main.js": "/memory-card/static/js/main.770a2a9e.js",
     "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
     "static/media/cards.jpg": "/memory-card/static/media/cards.0f2a90b8ea9a3f05dca1.jpg",
     "static/media/niragi.jpg": "/memory-card/static/media/niragi.551243a4a00c13fdacdd.jpg",
@@ -22,11 +22,11 @@
     "static/media/usagi.jpg": "/memory-card/static/media/usagi.d142337f59b90ec82a71.jpg",
     "index.html": "/memory-card/index.html",
     "main.a3b60e24.css.map": "/memory-card/static/css/main.a3b60e24.css.map",
-    "main.e2925ef0.js.map": "/memory-card/static/js/main.e2925ef0.js.map",
+    "main.770a2a9e.js.map": "/memory-card/static/js/main.770a2a9e.js.map",
     "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3b60e24.css",
-    "static/js/main.e2925ef0.js"
+    "static/js/main.770a2a9e.js"
   ]
 }
